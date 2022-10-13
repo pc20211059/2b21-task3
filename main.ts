@@ -1,8 +1,10 @@
+let count = 0
 input.onButtonPressed(Button.A, function () {
     basic.showString("" + (randint(1, 6)))
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showNumber(109876543210)
+    count = 9
+    basic.showNumber(9876543210)
     basic.showLeds(`
         . . . . .
         . . . . .
